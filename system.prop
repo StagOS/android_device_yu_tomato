@@ -14,6 +14,7 @@ persist.camera.hal.debug.mask=0
 media.stagefright.audio.sink=280
 vidc.dec.downscalar_width=1920
 vidc.dec.downscalar_height=1088
+vendor.mediacodec.binder.size=6
 vidc.disable.split.mode=1
 vidc.enc.disable_bframes=1
 vidc.enc.disable_pframes=1
@@ -50,6 +51,9 @@ pm.sleep_mode=1
 # Fling velocities
 ro.min.fling_velocity=160
 ro.max.fling_velocity=20000
+
+# Sensors
+persist.vendor.sensor.hw.binder.size=8
 
 # Dalvik
 dalvik.vm.checkjni=false
