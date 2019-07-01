@@ -55,8 +55,7 @@ PRODUCT_PACKAGES += \
     camera.device@3.2-impl \
     camera.msm8916 \
     libmm-qcamera \
-    SnapdragonCamera \
-    FootejCamera
+    SnapdragonCamera
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1280
