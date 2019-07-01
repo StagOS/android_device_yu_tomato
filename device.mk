@@ -152,9 +152,9 @@ libhealthd.cm
 
 # Shims
 #PRODUCT_PACKAGES += \
- #   libshims_boringssl \
- #   libshims_camera \
- #   libshims_ims
+     libshims_boringssl \
+     libshims_camera \
+     libshims_ims
 
 # USB HAL
 PRODUCT_PACKAGES += \
@@ -209,10 +209,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_wlan_nv.bin:system/vendor/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
 
 #Shims
-#TARGET_LD_SHIM_LIBS += \
- #      /system/vendor/lib64/lib-imsdpl.so|libshims_boringssl.so \
- #      /system/vendor/lib64/lib-imscamera.so|libshims_camera.so \
- #      /system/vendor/lib64/lib-imsvt.so|libshims_ims.so \
+TARGET_LD_SHIM_LIBS += \
+      /system/vendor/lib64/lib-imsdpl.so|libshims_boringssl.so \
+      /system/vendor/lib64/lib-imscamera.so|libshims_camera.so \
+      /system/vendor/lib64/lib-imsvt.so|libshims_ims.so \
 
 #Camera Sounds
 PRODUCT_COPY_FILES += \
